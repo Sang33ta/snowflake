@@ -5,6 +5,7 @@ import Process._
 class SnowflakeProject(info: ProjectInfo) extends StandardServiceProject(info)
   with DefaultRepos
   with CompileThriftJava
+  with CompileThriftPython
   with CompileThriftRuby
   with ProjectDependencies
   with NoisyDependencies {
